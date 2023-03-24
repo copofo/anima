@@ -19,6 +19,9 @@ window.onload = function(){
   spriteSheet.src = "../img/img.png"
   
   var zezim = new Sprite(spriteSheet);
+  var scene = new Image()
+  scene.src = "../img/scene.png"
+  
   
   
   spriteSheet.onload = function(){
@@ -46,6 +49,10 @@ window.onload = function(){
   
   function draw(){
     ctx.clearRect(0,0,canvas.width,canvas.height)
+    
+    ctx.drawImage
+    (scene,0,0,scene.width,scene.height,0,0,cnv.width,cnv.height)
+    
     zezim.draw(ctx);
     
     
