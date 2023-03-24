@@ -76,7 +76,11 @@ function Sprite(img){
       
       this.srcX = Math.floor(this.countAnime / 5) * this.width
       
-    }
+    }else if (movLeft == false || movTop == false || movRight == false || movBottom== false){
+
+          this.srcX = 0 * this.width
+
+      }
     
     
     
