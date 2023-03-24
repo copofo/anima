@@ -6,8 +6,8 @@ function Sprite(img){
   this.height = 32;
   this.posX = posY = 0;
   this.img = img;
-  this.posXAlt = 100;
-  this.posYAlt = 100;
+  this.posXAlt = canvas.width / 2;
+  this.posYAlt = canvas.height / 2;
   this.speed = 1;
   this.countAnime = 0;
   
