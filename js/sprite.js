@@ -52,8 +52,10 @@ function Sprite(img){
           this.srcY = this.height * 0;
           
     }
-        
     
+    this.posXAlt = Math.max(0, Math.min(canvas.width - this.width, this.posXAlt))
+    
+    this.posYAlt = Math.max(0, Math.min(canvas.height - this.height, this.posYAlt))
     
     
   }

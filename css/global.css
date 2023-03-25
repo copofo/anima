@@ -31,10 +31,10 @@ body{
 
 #canvas{
   
-  /*
-  width: 94vw;
-  height: 60vh;
-  */
+  
+  width: 400px;
+  height: 400px;
+  
   
   border: 0.5em solid black;
   
@@ -372,8 +372,8 @@ div #cima, #baixo, #esquerda, #direita{
   #canvas{
   
    
-    height: 70vh;
-    width: 92vw;
+    height: 400px;
+    width: 400px;
   }
 
   #setas{
@@ -395,8 +395,8 @@ div #cima, #baixo, #esquerda, #direita{
   
   #canvas{
   
-  width: 98vw;
-  height: 95vh;
+  width: 400px;
+  height: 400px;
   z-index: 0;
   
   
